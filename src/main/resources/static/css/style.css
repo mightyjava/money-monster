@@ -32,5 +32,29 @@
 
 .dashboard-table {
 	overflow-x:auto;
-	height:750px;
+	height:450px;
+}
+
+.bg-success {
+	background-color: #A8DF65!important;
+}
+
+.border-success {
+    border-color: #A8DF65!important;
+}
+
+.bg-danger {
+    background-color: #ea485f!important;
+}
+
+.border-danger {
+    border-color: #ea485f!important;
+}
+
+.bg-primary {
+    background-color: #1b6ca8!important;
+}
+
+.border-primary {
+    border-color: #1b6ca8!important;
 }

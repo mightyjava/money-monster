@@ -4,36 +4,36 @@
 <link rel="stylesheet" href="${path}/webjars/bootstrap/4.1.3/css/bootstrap.min.css">
 <link rel="stylesheet" href="${path}/webjars/font-awesome/4.7.0/css/font-awesome.min.css">
 <style type="text/css">
-			body::before {
-				background: url("https://mefminute.files.wordpress.com/2015/04/money1.jpg") no-repeat center center fixed;
-				content: '';
-			  	z-index: -1;
-			  	width: 100%;
-			  	height: 100%;
-			  	position:absolute; 
-			  	-webkit-background-size: cover;
-			  	-moz-background-size: cover;
-			  	-o-background-size: cover;
-			 	background-size: cover;
-			  	-webkit-filter: blur(10px);
-			  	-moz-filter: blur(10px);
-			  	-o-filter: blur(10px);
-			  	-ms-filter: blur(10px);
-			  	filter: blur(10px);
-			}
-			
-			body {
-				background-size: cover;
-				display: flex;
-				align-items: center;
-				height: 100vh;
-			}
-		</style>
+	body::before {
+		background: url("https://mefminute.files.wordpress.com/2015/04/money1.jpg") no-repeat center center fixed;
+		content: '';
+	  	z-index: -1;
+	  	width: 100%;
+	  	height: 100%;
+	  	position:absolute; 
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	 	background-size: cover;
+	  	-webkit-filter: blur(10px);
+	  	-moz-filter: blur(10px);
+	  	-o-filter: blur(10px);
+	  	-ms-filter: blur(10px);
+	  	filter: blur(10px);
+	}
+	
+	body {
+		background-size: cover;
+		display: flex;
+		align-items: center;
+		height: 100vh;
+	}
+</style>
 <div class="container col-lg-3 col-lg-offset-4">
 	<div class="card">
 		<div class="card-header">
 			<strong><i class="fa fa-user"></i> Login</strong>
-			<a href="#" class="btn btn-outline-secondary btn-sm pull-right">
+			<a href="javascript:void(0);" class="btn btn-outline-secondary btn-sm pull-right">
 				<i class="fa fa-user-plus"></i> <strong>Register</strong>
 			</a>
 		</div>
@@ -90,7 +90,7 @@
 			</div>
 			<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
 			<div class="card-footer" style="background: #fff;border-color: #f1f5fc;color: #777;">
-				<label class="control-label pull-left"><a href="#">Forget Your Password?</a></label>
+				<label class="control-label pull-left"><a href="javascript:void(0);">Forget Your Password?</a></label>
 				<button type="submit" class="btn btn-sm btn-outline-secondary pull-right">
 					<i class="fa fa-sign-in"></i> Login
 				</button>
